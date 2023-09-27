@@ -28,7 +28,7 @@ const App = () => {
               {/* Do not remove the main div */}
         <div className="heading">
           <h1>Blue Whales</h1>
-          <button onClick={showStudentData}>Get user list</button>
+          <button className="btn" onClick={showStudentData}>Get user list</button>
         </div>
 
                  {/*this is table div*/}
