@@ -45,7 +45,7 @@ const App = () => {
             <tbody>
               {(studentData.length==0) ? 
               <tr>
-                <td colSpan={4}>No Data Found to Display</td>
+                <td colSpan={4}>No data found to display.</td>
               </tr>
               :
               studentData.map((student)=> {
